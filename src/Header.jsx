@@ -43,7 +43,7 @@ function Header() {
                 </span>
                 </div>
                 </Link>
-
+           <Link to='/orders'>
              <div className='header__option'>
              <span className='header__optionLinethree'>
                 Orders
@@ -53,6 +53,7 @@ function Header() {
               & Returns
                 </span>
              </div>
+             </Link>
              <div className='header__option'>
              <span className='header__optionLineone'>
                Your
